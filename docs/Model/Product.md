@@ -1,0 +1,51 @@
+# Product
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**availability** | **string** |  | [optional]
+**barcode** | **string** |  | [optional]
+**brand** | **string** |  | [optional]
+**category_id** | **string** |  | [optional]
+**condition** | **string** |  | [optional]
+**default_ledger_account** | **string** |  | [optional]
+**default_price** | **string** |  | [optional]
+**default_price_formula_id** | **string** | References the price formula entity. | [optional]
+**default_tax_rate** | **string** |  | [optional]
+**description** | **string** |  | [optional]
+**gtin** | **string** |  | [optional]
+**height** | **string** |  | [optional]
+**image_link** | **string** |  | [optional]
+**images** | **mixed** |  | [optional]
+**is_taxable** | **bool** |  | [optional]
+**length** | **string** |  | [optional]
+**link** | **string** |  | [optional]
+**max_stock** | **int** | Target stock level used by reorder proposals. | [optional]
+**min_stock** | **int** | Reorder point — when stock falls below this, a reorder is suggested. | [optional]
+**mpn** | **string** |  | [optional]
+**name** | **string** |  |
+**package_height** | **string** |  | [optional]
+**package_length** | **string** |  | [optional]
+**package_weight_unit** | **string** |  | [optional]
+**package_weight_value** | **string** |  | [optional]
+**package_width** | **string** |  | [optional]
+**product_code** | **string** |  |
+**product_type** | **string** |  | [optional]
+**purchase_price** | **string** |  | [optional]
+**reorder_quantity** | **int** | Suggested purchase quantity when a reorder proposal is created. | [optional]
+**sale_price** | **string** |  | [optional]
+**shipping_price** | **string** |  | [optional]
+**shipping_requires_insurance** | **bool** |  | [optional]
+**sku** | **string** |  |
+**stock_quantity** | **int** |  | [optional]
+**tags** | **mixed** |  | [optional]
+**tax_price** | **string** |  | [optional]
+**track_batch** | **bool** | Whether this product requires batch (Chargennummer) tracking. | [optional]
+**track_serial** | **bool** | Whether this product requires serial-number tracking. | [optional]
+**unit** | **mixed** |  | [optional]
+**weight_unit** | **string** |  | [optional]
+**weight_value** | **string** |  | [optional]
+**width** | **string** |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

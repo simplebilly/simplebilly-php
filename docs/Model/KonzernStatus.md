@@ -1,0 +1,20 @@
+# KonzernStatus
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**groessenbefreit** | **bool** |  |
+**kapitalmarktorientiert** | **bool** |  |
+**konzernabschlusspflicht** | **bool** |  |
+**missing_group_figures** | **bool** | Keine group_figures-Zeile für das Jahr vorhanden → keine Größenbefreiung. |
+**mutterunternehmen** | **bool** | Mutterunternehmen: mindestens eine beherrschte Beteiligung (§ 290 Abs. 1 HGB). |
+**parent_name** | **string** | Mutterunternehmen für die Zwischenholding-Befreiung (§ 291 HGB). | [optional]
+**parent_situs** | **string** |  | [optional]
+**participations** | [**\OpenAPI\Client\Model\KonzernBeteiligung[]**](KonzernBeteiligung.md) |  |
+**thresholds** | [**\OpenAPI\Client\Model\KonzernThresholds**](KonzernThresholds.md) |  |
+**year** | **int** |  |
+**zwischenholding_befreit** | **bool** |  |
+**zwischenholding_hinweis** | **string** | Hinweis zu den § 291-Voraussetzungen (EU/EWR-Sitz, geprüfter Konzernabschluss). | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

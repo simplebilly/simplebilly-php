@@ -1,0 +1,24 @@
+# QuotationCreate
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**address** | **mixed** |  | [optional]
+**contact_id** | **string** | References the contact entity. | [optional]
+**contact_name** | **string** |  | [optional]
+**currency** | **string** |  |
+**expiration_date** | **\DateTime** |  | [optional]
+**files** | **mixed** |  | [optional]
+**introduction** | **string** |  | [optional]
+**line_items** | **mixed** |  | [optional]
+**preceding_sales_voucher_id** | **string** | References the preceding sales voucher entity. | [optional]
+**preceding_sales_voucher_type** | [**\OpenAPI\Client\Model\PrecedingSalesVoucherType**](PrecedingSalesVoucherType.md) |  | [optional]
+**quotation_number** | **string** |  | [optional]
+**remark** | **string** |  | [optional]
+**tax_condition** | **string** |  | [optional]
+**title** | **string** |  | [optional]
+**voucher_date** | **\DateTime** |  |
+**voucher_status** | [**\OpenAPI\Client\Model\VoucherStatus**](VoucherStatus.md) |  |
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
